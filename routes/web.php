@@ -24,4 +24,4 @@ Route::middleware(['auth'])->group(function () {
 // Single resource route (replaces duplicate definitions)
 Route::resource('tafels', TafelController::class);
 
-require __DIR__.'/auth.php';
+//require __DIR__.'/auth.php';
